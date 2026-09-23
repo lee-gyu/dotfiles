@@ -4,8 +4,8 @@
 
 set -e
 
-# Directory containing this script (dotfiles repo path)
-DOTFILES_DIR="$(cd "$(dirname "$0")" && pwd)"
+# Parent of the directory containing this script (dotfiles repo path)
+DOTFILES_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
 ZSHRC="$HOME/.zshrc"
 SOURCE_LINE="source \"$DOTFILES_DIR/.zshrc\""
