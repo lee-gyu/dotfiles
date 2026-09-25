@@ -1,0 +1,8 @@
+{
+    "scm.defaultViewMode": "tree",
+    "terminal.integrated.env.osx": {
+        "LANG": "en_US.UTF-8"
+    },
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "material-icon-theme"
+}
