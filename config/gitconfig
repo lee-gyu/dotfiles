@@ -1,0 +1,17 @@
+[core]
+
+
+[user]
+name = lee-gyu
+email = leegyu4dev@gmail.com
+
+[commit]
+verbose = true
+
+[rebase]
+autoSquash = true
+autoStash = true
+updateRefs = true
+
+[pull]  
+rebase = true
